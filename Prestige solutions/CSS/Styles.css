@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/*Basic Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%; /* Default scaling base */
+}
 
 /*Adout us page*/
 .AboutUs {
+    display: flex;
     font-family: 'Roboto', sans-serif;
     color: darkgreen;
     text-align: center;
@@ -30,5 +39,32 @@
     text-decoration-color:darkgreen;
     margin: none;
     padding: none;
-    background-color:whitesmoke;
+    background-color:olivedrab;
+}
+
+/*Contact us page*/
+.contactUs {
+    font-family: 'Roboto', sans-serif;
+    color: darkgreen;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color:whitesmoke; /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.contactform {
+    max-width: 600px;              /* Limit form width */
+    max-height: 400px;
+    margin: 40px auto;             /* Center form horizontally with top margin */
+    padding: 20px;                 /* Inner spacing */
+    background: #fff;              /* White background for card effect */
+    border-radius: 10px;           /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Clean font */
+}
+.map {
+    display: flex;
+    justify-content: center;       /* Center the map */
+    
 }
