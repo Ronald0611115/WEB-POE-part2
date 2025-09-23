@@ -15,21 +15,21 @@
     font-family: 'Roboto', sans-serif;
     color: darkgreen;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
+    margin: 20rem;
+    padding: 20rem;
     background-color:whitesmoke; /* Semi-transparent white background */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10rem;
+    box-shadow: 0 4rem  8rem rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 .missionVission {
     font-family: 'Roboto', sans-serif;
     color: darkgreen;
     align-items: center;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
+    margin: 20rem;
+    padding: 20rem;
     background-image: url('../Assets/WhatsApp Image 2025-08-16 at 20.04.55_40ee9f89.jpg');
-    border-radius: 10px;
+    border-radius: 10rem;
 }
 .whyChooseUs {
     font-family: 'Roboto', sans-serif;
@@ -47,24 +47,39 @@
     font-family: 'Roboto', sans-serif;
     color: darkgreen;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
+    margin: 20rem;
+    padding: 20rem;
     background-color:whitesmoke; /* Semi-transparent white background */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10rem;
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 .contactform {
-    max-width: 600px;              /* Limit form width */
-    max-height: 400px;
-    margin: 40px auto;             /* Center form horizontally with top margin */
-    padding: 20px;                 /* Inner spacing */
+    max-width: 600rem;              /* Limit form width */
+    max-height: 400rem;
+    margin: 40rem auto;             /* Center form horizontally with top margin */
+    padding: 20rem;                 /* Inner spacing */
     background: #fff;              /* White background for card effect */
-    border-radius: 10px;           /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    border-radius: 10rem;           /* Rounded corners */
+    box-shadow: 0 4rem 8rem rgba(0,0,0,0.1); /* Subtle shadow for depth */
     font-family: Arial, sans-serif; /* Clean font */
 }
 .map {
     display: flex;
     justify-content: center;       /* Center the map */
     
+}
+
+/*Gallery page*/
+.Gallery {
+    display: flex;                /* Use flexbox for layout */
+    flex-wrap: wrap;              /* Allow wrapping to next line if needed */
+    justify-content: center;      /* Center align all staff cards */
+    gap: 15rem;                    /* Space between each card */
+    padding: 15rem;                /* Inner spacing around container */
+    background-color: #f9f9f9;    /* Light gray background */
+    background: #fff;                      /* White background for card look */
+    border-radius: 12rem;                   /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    
+    width: 200px;                          
 }
