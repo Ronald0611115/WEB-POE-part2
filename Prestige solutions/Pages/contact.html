@@ -1,117 +1,132 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PrestigeServeSolitions-Get In Touch</title>
+    <title>Prestige Serve Solutions - Contact Us</title>
     <link rel="stylesheet" href="../CSS/Styles.css">
 </head>
-<body background-color="lightgrey">
-    <header class="ContactUs">
-        <h1>Get In Touch With Us</h1>
-        <na>
-            <!--Navigation and links-->
-            <lu >
-                <li><a href="../index.html" >Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./services.html">Our Services </a></li>
-                <li><a href="./gallery.html">Gallery</a></li>
-                <li><a href="./contact.html">Get In Touch With Us</a></li>
-            </lu>
-        </na>
+<body>
+    <header>
+        <img src="../Assets/Prestige serve solutions logo.png" class="header-logo" alt="Prestige Serve Solutions">
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
+        <section class="hero">
+            <h1>Get In Touch With Us</h1>
+            <p>Ready to transform your outdoor space? Let's start the conversation.</p>
+        </section>
 
-        <section class="ContactForm">
-             
-            <form action=" " method="post">
-                <table>
-                    <!--Text boxes-->
-                    <tr>
-                        <td width="100px">Name</td>
-                        <td><input type="password" name="name" placeholder="Enter your name" required></td>
-                    </tr>
-                  
-                    <tr>
-                        <td width="100px">Address</td>
-                        <td><input type="text" name="Address" placeholder="Enter your Address" required></td>
-                    </tr>
-                    <!--Dropdown list-->
-                    <tr>
-                        <td width="100px">Service/Packages
-                        <select name="City/town">
-                            <option>--Select--</option>
-                            <option>--Golden Package--</option>
-                            <option>--Platinum Package--</option>
-                            <option>--Diamond Package--</option>
-                            <option>--One time Service--</option>
+        <section class="section">
+            <div class="contact-form">
+                <h2>Request a Quote</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Property Address *</label>
+                        <input type="text" id="address" name="address" placeholder="Enter your property address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Package</label>
+                        <select id="service" name="service">
+                            <option value="">-- Select Package --</option>
+                            <option value="golden">Golden Package – Essential Care</option>
+                            <option value="platinum">Platinum Package – Comprehensive Transformation</option>
+                            <option value="diamond">Diamond Package – Elite Concierge Experience</option>
+                            <option value="custom">Custom One-time Service</option>
+                            <option value="consultation">Free Consultation</option>
                         </select>
-                        </td>
-                         <!--Attachments-->
-                         <tr>
-                            <td width ="100" >Proof Of Address</td>
-                            <td><input type="file" name="Document" required></td>
-                        </tr>
-                         
-                        <!--Checkboxes-->
-                        <tr>
-                            <td width="100px">Where did you hear about us?</td>
-                            <td><input type="checkbox" name="television" value="television">television</td>
-                        </tr>
-                        <tr>
-                            <td width="100"></td>
-                            <td><input type="checkbox" name="internet" value="internet">internet</td>
-                        </tr>
-                        <tr>
-                            <td width="100"></td>
-                            <td><input type="checkbox" name="social media" value="socila media">social media</td>
-                        </tr>
-                        <tr>
-                            <td width="100"></td>
-                            <td><input type="checkbox" name="radio" value="radio">radio</td>
-                        </tr>
-                        
-                        <!--Text area-->
-                        <tr>
-                            <td width="100">Comments</td>
-                            <td>
-                                <textarea rows="5" cols="25"></textarea>
-                            </td>
-                            <tr>
-                                <td width="100px">Telephone Number</td>
-                                <td>(021)-324-0010</td>
-                            </tr>
-                            <tr>
-                                <td width="100px">Physical Address</td>
-                                <td>404 AF Street</td>
-                            </tr> 
-                            <tr>
-                                <td width="100px">Email Address</td>
-                                <td><a href="info@PrestigeServeSolutions.co.za">Email us</a></td>
-                            </tr>
-                            <tr>
-                                <td width="100px">Social Media Platforms</td>
-                                <td>Prestige_Serve_Solitions</td>
-                            </tr> 
-                        </table>                            
-        </section>
-        <section class="Map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116716.01549660486!2d29.36870568675835!3d-23.911754444425934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d8401183307b%3A0xa720ddd4b18e4df7!2sPolokwane%2C%20South%20Africa!5e0!3m2!1sen!2sie!4v1755594018739!5m2!1sen!2sie" 
-                width="800" 
-                height="650" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Where did you hear about us?</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="television" name="source" value="television">
+                                <label for="television">Television</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="internet" name="source" value="internet">
+                                <label for="internet">Internet</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="social-media" name="source" value="social-media">
+                                <label for="social-media">Social Media</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="radio" name="source" value="radio">
+                                <label for="radio">Radio</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="referral" name="source" value="referral">
+                                <label for="referral">Friend Referral</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us about your project requirements..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Submit Request</button>
+                </form>
+            </div>
         </section>
 
+        <section class="section">
+            <h2>Contact Information</h2>
+            <div class="package">
+                <h3>Get in Touch</h3>
+                <p><strong>Telephone:</strong> (021) 324-0010</p>
+                <p><strong>Email:</strong> <a href="mailto:info@PrestigeServeSolutions.co.za">info@PrestigeServeSolutions.co.za</a></p>
+                <p><strong>Physical Address:</strong> 404 AF Street, Polokwane, Limpopo</p>
+                <p><strong>Social Media:</strong> @Prestige_Serve_Solutions</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Our Location</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116716.01549660486!2d29.36870568675835!3d-23.911754444425934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d8401183307b%3A0xa720ddd4b18e4df7!2sPolokwane%2C%20South%20Africa!5e0!3m2!1sen!2sie!4v1755594018739!5m2!1sen!2sie" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p style="text-align: center;"> PrestigeServeSolitions&copy 2025  All Rights Reserved</p>
+        <p>Prestige Serve Solutions &copy; 2025 All Rights Reserved</p>
     </footer>
-    
 </body>
 </html>
