@@ -59,3 +59,11 @@ REFERENCES:
   Netlify (2025). Deploying Static Sites. Retrieved from: https://docs.netlify.com/
 
   Font Awesome (2025). Icon Library. Retrieved from: https://fontawesome.com/icons
+
+  Google Fonts (2025). Roboto Font Family. Retrieved from: https://fonts.google.com/specimen/Roboto
+
+  CSS-Tricks (2025). A Complete Guide to Grid. Retrieved from: https://css-tricks.com/snippets/css/complete-guide-grid/
+
+  CSS-Tricks (2025). A Complete Guide to Flexbox. Retrieved from: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+  Google Developers (2025). Responsive Web Design Basics. Retrieved from: https://developers.google.com/web/fundamentals/design-and-ux/responsive
