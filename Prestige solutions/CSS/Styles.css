@@ -187,7 +187,7 @@ main {
     color: var(--dark-green);
     font-weight: 500;
 }
-/*styling for form inputs, selects, and textareas*/
+/*styling for form inputs, selects, and textareas*/    
 .form-group input,
 .form-group select,
 .form-group textarea {
@@ -245,7 +245,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
- /*styling for team member images*/
+/*styling for team member images*/
 .team-member img {
     width: 150px;
     height: 150px;
@@ -262,11 +262,11 @@ main {
 
 /* ===== FOOTER ===== */
 footer {
-    background-color: darkblue;
+    background-color:lavender;
     color: white;
     text-align: center;
-    padding: 2rem;
-    margin-top: 3rem;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 
 /* ===== BUTTONS ===== */
