@@ -70,12 +70,12 @@ if(navToggle && navMenu){
 /* ===== GALLERY LIGHTBOX ===== */
 const galleryItems = document.querySelectorAll('.gallery-item img');
 galleryItems.forEach(img => {
-    img.addEventListener('click', () => {
+    img.addEventListener('onclick', () => {
         const lightbox = document.createElement('div');
         lightbox.id = 'lightbox';
         lightbox.style.position = 'floating';
-        lightbox.style.top = '10px';
-        lightbox.style.left = '10px';
+        lightbox.style.top = '100px';
+        lightbox.style.left = '100px';
         lightbox.style.width = '100%';
         lightbox.style.height = '100%';
         lightbox.style.background = 'rgba(0,0,0,0.8)';
@@ -86,7 +86,7 @@ galleryItems.forEach(img => {
         lightbox.innerHTML = `<img src="${img.src}" style="max-width:90%; max-height:90%; border-radius:10px;">`;
         document.body.appendChild(lightbox);
 
-        lightbox.addEventListener('click', () => {
+        lightbox.addEventListener('onclick', () => {
             document.body.removeChild(lightbox);
         });
     });
