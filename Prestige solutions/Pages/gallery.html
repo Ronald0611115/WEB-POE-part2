@@ -94,5 +94,13 @@
     <footer>
         <p>Prestige Serve Solutions &copy; 2025 All Rights Reserved</p>
     </footer>
+
+    <!--Automatic date&time-->
+    <script>
+        const footer = document.querySelector('footer p');
+        const now = new Date();
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
+        footer.textContent = `Prestige Serve Solutions © 2025 | ${now.toLocaleDateString('en-ZA', options)} All Rights Reserved`;
+    </script>
 </body>
 </html>
