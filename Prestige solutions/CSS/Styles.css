@@ -344,3 +344,35 @@ footer {
         padding: 2rem 1rem;
     }
 }
+/*Part 3*/
+/* ===== ADDITIONAL STYLES CAN BE ADDED BELOW ===== */
+/* Hamburger Menu Styles */
+.nav-toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--dark-green);
+}
+
+@media (max-width: 768px){
+    .nav-toggle {
+        display: block;
+    }
+    .main-nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        background: var(--white);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .main-nav ul.show {
+        display: flex;
+    }
+}
