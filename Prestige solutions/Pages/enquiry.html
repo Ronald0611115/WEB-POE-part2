@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ===== SEO META TAGS ===== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Prestige Serve Solutions for professional landscaping, maintenance, and property services. Submit your enquiry easily using our online form.">
+    <meta name="keywords" content="Prestige Serve Solutions, contact form, enquiry form, landscaping, property maintenance, cleaning services">
+    <meta name="author" content="Rorisang Maroga">
+    <title>Contact & Enquiry | Prestige Serve Solutions</title>
+    
+    <!-- ===== STYLESHEET LINKS ===== -->
+    <link rel="stylesheet" href="../CSS/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <img src="../Assets/Prestige serve solutions logo.png" class="header-logo" alt="Prestige Serve Solutions Logo">
+        <button id="nav-toggle" class="nav-toggle"><i class="fas fa-bars"></i></button>
+        <nav id="nav-links" class="main-nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+        <section class="hero">
+            <h1>Contact & Enquiry</h1>
+            <p>We’d love to hear from you. Submit your details and we’ll get back to you shortly.</p>
+        </section>
+
+        <!-- ===== ENQUIRY FORM ===== -->
+        <section class="section">
+            <h2>Send Us Your Enquiry</h2>
+            <form id="enquiryForm" class="contact-form">
+                
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Service Interested In:</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="Landscaping">Landscaping</option>
+                        <option value="Cleaning">Cleaning</option>
+                        <option value="Maintenance">Maintenance</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Additional Details:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell us more about your enquiry..." required></textarea>
+                </div>
+
+                <!-- Auto Date & Time Display -->
+                <div class="form-group">
+                    <label>Submission Date & Time:</label>
+                    <input type="text" id="currentDateTime" readonly>
+                </div>
+
+                <button type="submit" class="btn">Submit Enquiry</button>
+            </form>
+        </section>
+
+        <!-- ===== ACCORDION SECTION ===== -->
+        <section class="section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="accordion">
+                <h3>🕒 How soon will I get a response?</h3>
+                <div class="accordion-content">
+                    <p>We typically respond within 24 hours of receiving your enquiry, depending on the volume of requests.</p>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <h3>💸 Do you offer free consultations?</h3>
+                <div class="accordion-content">
+                    <p>Yes, our first consultation and quotation are free of charge for new clients.</p>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <h3>🌿 Which areas do you service?</h3>
+                <div class="accordion-content">
+                    <p>We provide our services across major South African regions, including Gauteng, Limpopo, and Mpumalanga.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>Prestige Serve Solutions &copy; 2025 All Rights Reserved</p>
+    </footer>
+
+    <!-- ===== LINK TO MAIN.JS ===== -->
+    <script src="../JS/main.js" defer></script>
+</body>
+</html>
