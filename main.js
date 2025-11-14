@@ -13,20 +13,19 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* ===== ACCORDIONS (Services Page) ===== */
-const accordions = document.querySelectorAll('.package h3, .package h4');
-accordions.forEach(header => {
-    header.style.cursor = 'pointer';
-    const content = header.nextElementSibling;
-    if(content) content.style.display = 'none'; // hide by default
+document.querySelectorAll(".accordion-header").forEach(header => {
+    header.addEventListener("click", () => {
+        header.classList.toggle("active");
+        let content = header.nextElementSibling;
+        content.style.maxHeight = 
+            content.style.maxHeight ? null : content.scrollHeight + "px";
 
-    header.addEventListener('click', () => {
-        if(content.style.display === 'block') {
-            content.style.display = 'none';
-        } else {
-            content.style.display = 'block';
-        }
+        // Change icon
+        let icon = header.querySelector(".accordion-icon");
+        icon.textContent = header.classList.contains("active") ? "-" : "+";
     });
 });
+
 
 /* ===== ENQUIRY FORM HANDLER (Contact Page) ===== */
 const form = document.querySelector('form');
