@@ -376,3 +376,100 @@ footer {
         display: flex;
     }
 }
+
+/* ===========================
+    ACCORDION STYLES
+=========================== */
+
+.accordion-section {
+    margin: 2rem 0;
+}
+
+.accordion-section h2 {
+    color: var(--dark-green);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.accordion {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    background: var(--white);
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+/* Accordion Header Button */
+.accordion-header {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    background: var(--light-green);
+    color: var(--dark-green);
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease, padding 0.3s ease;
+}
+
+.accordion-header:hover {
+    background: var(--primary-green);
+    color: white;
+}
+
+/* Icon (+ / -) */
+.accordion-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+/* When opened */
+.accordion-header.active {
+    background: var(--dark-green);
+    color: white;
+}
+
+/* Rotate icon when active */
+.accordion-header.active .accordion-icon {
+    transform: rotate(180deg);
+}
+
+/* Hidden Content */
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    background: var(--light-gray);
+    padding: 0 1.2rem;
+    transition: max-height 0.4s ease;
+}
+
+.accordion-content p {
+    padding: 1rem 0;
+    line-height: 1.6;
+    color: var(--dark-gray);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .accordion-header {
+        font-size: 1rem;
+        padding: 0.9rem 1rem;
+    }
+
+    .accordion-content p {
+        font-size: 0.95rem;
+    }
+}
+

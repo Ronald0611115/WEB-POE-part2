@@ -2,32 +2,91 @@ This is a professional static website built using HTML, CSS, and JavaScript. Thi
 
 Features
 
-    Responsive layout for desktop and mobile
+Design & Layout
 
-    Navigation menu with linked pages
+    Fully responsive layout (desktop, tablet, mobile)
 
-    "Home","About Us","Contact","Gallery",and "Services" sections
+    Modern UI with gradients, spacing, and typography hierarchy
 
-    Font Awesome icons integration
+    Semantic page structure for accessibility
 
-    Basic CSS styling
+Interactive JavaScript Features
+
+    Accordions (Services & FAQ)
+
+    Gallery Lightbox (click to enlarge images)
+
+    Google Map integration
+
+    Real-time dynamic content
+
+    Mobile navigation menu
+
+    Search filtering (real-time)
+
+    Smooth scrolling & active state navigation
+
+    Event highlighters for forms
+
+    Automatic date/time insertion
+
+Forms
+
+    Enquiry form with:
+
+    Validation
+
+    Automatic date/time
+
+    User feedback messages
+
+    Contact form with:
+
+    Full JavaScript validation
+
+    Email simulation & feedback
+
+SEO Optimizations
+
+    SEO-friendly titles
+
+    Meta description & meta keyword tags
+
+    Open Graph tags
+
+    Alt text for all images
+
+    Clean URL structure
+
+    Proper HTML5 semantics
 
 FILE AND FOLDER STRUCTURE[PRESTIGE SOLUTIONS]
-   
-    ├── Assets/                 # Static assets (images, icons, fonts)
-    ├── CSS/                   # Stylesheets
-        ├── Changelog.css      # Version control[Models and when updates are made]
-        └── Styles.css         # Main stylesheet
-    ├── Miscellaneous/         # Additional project files
-    │     └── readme.md         # Project documentation
-    ├── Pages/                # Website pages
-    │      ├── about.html        
-    │      ├── contact.html      
-    │      ├── gallery.html      
-    │      └── services.html     
-    ├── web-POE-PAR-1/        # Project-specific folder[Name of the repositorey]
-    ├── index.html            # Main homepage
-    └── LINKS.txt            # Important URLs and references
+    Prestige-Solutions/
+│
+├── index.html
+├── Pages/
+│   ├── about.html
+│   ├── services.html
+│   ├── gallery.html
+│   ├── contact.html
+│
+├── CSS/
+│   ├── Styles.css
+│   └── Changelog.css
+│
+├── JS/
+│   └── main.js
+│
+├── Assets/
+│   ├── images/
+│   ├── icons/
+│
+├── Miscellaneous/
+│   └── readme.md
+│
+├── LINKS.txt
+└── CHANGELOG.md
+
 
 
 HOW TO RUN
