@@ -109,20 +109,34 @@ AUTHOR:
 Rorisang Maroga[Web developer]
 
 REFERENCES:
-  W3Schools (2025). CSS cursor Property. Retrieved from: https://www.w3schools.com/cssref/pr_class_cursor.php
+    W3Schools (2025). CSS cursor Property. Retrieved from: https://www.w3schools.com/cssref/pr_class_cursor.php
 
-  W3Schools (2025). How TO - Mobile Navigation Bar. Retrieved from: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+    W3Schools (2025). How TO - Mobile Navigation Bar. Retrieved from: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
-  MDN Web Docs (2025). HTML5 Semantic Elements. Retrieved from: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+    MDN Web Docs (2025). HTML5 Semantic Elements. Retrieved from: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
-  Netlify (2025). Deploying Static Sites. Retrieved from: https://docs.netlify.com/
+    Netlify (2025). Deploying Static Sites. Retrieved from: https://docs.netlify.com/
 
-  Font Awesome (2025). Icon Library. Retrieved from: https://fontawesome.com/icons
+    Font Awesome (2025). Icon Library. Retrieved from: https://fontawesome.com/icons
 
-  Google Fonts (2025). Roboto Font Family. Retrieved from: https://fonts.google.com/specimen/Roboto
+    Google Fonts (2025). Roboto Font Family. Retrieved from: https://fonts.google.com/specimen/Roboto
 
-  CSS-Tricks (2025). A Complete Guide to Grid. Retrieved from: https://css-tricks.com/snippets/css/complete-guide-grid/
+    CSS-Tricks (2025). A Complete Guide to Grid. Retrieved from: https://css-tricks.com/snippets/css/complete-guide-grid/
 
-  CSS-Tricks (2025). A Complete Guide to Flexbox. Retrieved from: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    CSS-Tricks (2025). A Complete Guide to Flexbox. Retrieved from: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-  Google Developers (2025). Responsive Web Design Basics. Retrieved from: https://developers.google.com/web/fundamentals/design-and-ux/responsive
+    Google Developers (2025). Responsive Web Design Basics. Retrieved from: https://developers.google.com/web/fundamentals/design-and-ux/responsive
+
+    Mozilla Developer Network (MDN). (2024). JavaScript Documentation. Retrieved from https://developer.mozilla.org
+
+    W3Schools. (2024). How To – Accordion. Retrieved from https://www.w3schools.com
+
+    W3Schools. (2024). How To – Modals & Tabs. Retrieved from https://www.w3schools.com
+
+    Google Developers. (2024). Search Engine Optimization Starter Guide. Retrieved from https://developers.google.com
+
+    Moz. (2024). Beginner’s Guide to SEO. Retrieved from https://moz.com
+
+    W3Schools. (2024). HTML Meta Tags. Retrieved from https://www.w3schools.com
+
+    Open Graph Protocol. (2024). OGP Documentation. Retrieved from https://ogp.me
